@@ -1,0 +1,17 @@
+
+
+
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .card {
+        flex: 1;
+        /* Độ rộng tự động chia đều giữa 3 cột */
+        /* Nếu bạn muốn cố định độ rộng của mỗi card, bạn có thể sử dụng width thay vì flex */
+        /* width: 33.33%; */
+        box-sizing: border-box; /* Đảm bảo padding và border không làm tăng kích thước của card */
+        margin: 10px; /* Thêm margin nếu cần */
+      }
